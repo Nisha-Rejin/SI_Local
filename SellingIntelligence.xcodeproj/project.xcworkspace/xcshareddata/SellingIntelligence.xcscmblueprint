@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b8d7aecb-2c01-0010-b91d-8b84fe05c7ba++2252",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b8d7aecb-2c01-0010-b91d-8b84fe05c7ba++2252" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b8d7aecb-2c01-0010-b91d-8b84fe05c7ba++2252" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4BC9829F-4C8D-4840-9A5E-ADEBC53AB323",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b8d7aecb-2c01-0010-b91d-8b84fe05c7ba++2252" : "ver_1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SellingIntelligence",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SellingIntelligence\/Selling Intelligence\/SI_SingleTarget\/SellingIntelligence.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/c2p.cognizant.com\/repository\/Mobile_CoE_Projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b8d7aecb-2c01-0010-b91d-8b84fe05c7ba++2252"
+    }
+  ]
+}

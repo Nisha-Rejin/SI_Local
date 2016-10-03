@@ -1,0 +1,35 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+
+
+#import  <Availability.h>
+#import  <UIKit/UIKit.h>
+ #import <Foundation/Foundation.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#warning sebastin - remove below commented lines
+
+//#if TARGET_IPHONE_SIMULATOR
+#define DEBUG_LOG_CONSOLE
+#define RUNTIME_LOG_TOCONSOLE
+//#endif
+
+#if defined(DEBUG_LOG_TOFILE)
+#define DebugLog(s, ... ) AppDebugLog(@"(D)%s: %@\n", __FUNCTION__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#elif defined(DEBUG_LOG_CONSOLE)
+#define DebugLog(s, ... ) NSLog(@"%s: %@\n", __FUNCTION__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DebugLog(s, ... )
+#endif
+
+#if defined(RUNTIME_LOG_TOCONSOLE)
+#define RunTimeLog(s, ... ) NSLog(@"(R)%s: %@\n", __FUNCTION__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define RunTimeLog(s, ... ) AppDebugLog(@"(R)%s: %@\n", __FUNCTION__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#endif
+

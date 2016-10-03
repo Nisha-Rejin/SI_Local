@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BIS</key>
+	<dict>
+		<key>Server_DEV</key>
+		<dict>
+			<key>AuthenticationURL</key>
+			<string>https://sfso.dev.mypepsico.com/SFSO_services-1.0/</string>
+		</dict>
+		<key>Server_TEST</key>
+		<dict>
+			<key>AuthenticationURL</key>
+			<string>https://sfsows.dev.mypepsico.com/sfsows/index.jsp</string>
+		</dict>
+		<key>Server_PROD</key>
+		<dict>
+			<key>AuthenticationURL</key>
+			<string>https://sfsows.mypepsico.com/sfsows/index.jsp</string>
+		</dict>
+		<key>Context</key>
+		<dict>
+			<key>CompanyCode</key>
+			<string>001</string>
+			<key>CountryCode</key>
+			<string>157</string>
+		</dict>
+		<key>Server_ITE</key>
+		<dict>
+			<key>AuthenticationURL</key>
+			<string>https://sfsows.ite.mypepsico.com/sfsows/index.jsp</string>
+		</dict>
+		<key>Days</key>
+		<dict>
+			<key>DaysToLive</key>
+			<string>3</string>
+		</dict>
+		<key>Hours</key>
+		<dict>
+			<key>HoursToLive</key>
+			<string>1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

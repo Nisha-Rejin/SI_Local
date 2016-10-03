@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SellingIntelligence.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SellingIntelligenceLib.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D778427C1BCB963100873BD4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D783C88F1BB2A0A100026942</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D783C89A1BB2A0A100026942</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D783C8AD1BB2A10300026942</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5D0B31F1BE2237C00E0EFF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5D0B3551BE2239900E0EFF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

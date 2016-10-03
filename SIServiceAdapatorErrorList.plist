@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ErrorCode</key>
+	<dict>
+		<key>1900</key>
+		<string>No profiles available for the store</string>
+		<key>1000</key>
+		<string>Success</string>
+		<key>1100</key>
+		<string>Product Download failed</string>
+		<key>1101</key>
+		<string>Product Download failed</string>
+		<key>1102</key>
+		<string>Updated products download failed</string>
+		<key>400</key>
+		<string>There is an internal Error. Please try again</string>
+		<key>401</key>
+		<string>Authorization required for this service.</string>
+		<key>403</key>
+		<string>Your session has expired. Please login again</string>
+		<key>500</key>
+		<string>There is an internal service error. Please try after sometime</string>
+		<key>408</key>
+		<string>The request timed out. Please try again later</string>
+		<key>0</key>
+		<string>Please check the network connection and try again</string>
+		<key>1009</key>
+		<string>You are not connected to a network</string>
+		<key>1001</key>
+		<string>The request timed out. Please try again later</string>
+		<key>503</key>
+		<string>Service unavailable. Please try after sometime</string>
+		<key>1201</key>
+		<string>No stores found</string>
+		<key>100</key>
+		<string>Unable to retrieve the data from webservice</string>
+		<key>1202</key>
+		<string>You are not authorized to search stores in this location</string>
+		<key>1203</key>
+		<string>You are not authorized to search stores in this location</string>
+		<key>502</key>
+		<string>Proxy error received an invalid response from an upstream server</string>
+		<key>1204</key>
+		<string>User has no access to any stores</string>
+		<key>1205</key>
+		<string>No results from DB</string>
+		<key>108</key>
+		<string>Planogram upload failed</string>
+		<key>1404</key>
+		<string>Planogram upload failed</string>
+		<key>1405</key>
+		<string>Planogram upload failed</string>
+		<key>1400</key>
+		<string>DB Connection Error</string>
+		<key>1401</key>
+		<string>InValid device</string>
+		<key>1402</key>
+		<string>No result from DB</string>
+		<key>1403</key>
+		<string>No result from DB</string>
+		<key>1406</key>
+		<string>Planogram uploaded successfully in server, but failed to insert in DB</string>
+		<key>1407</key>
+		<string>Planogram uploaded successfully in server, but failed to insert in DB</string>
+		<key>1408</key>
+		<string>No planogram in reset status for this store</string>
+		<key>1409</key>
+		<string>Planogram load failed from DB</string>
+		<key>1410</key>
+		<string>Planogram load failed from DB</string>
+		<key>1411</key>
+		<string>Planogram has no results</string>
+		<key>1413</key>
+		<string>Planogram submission failed. Please try again later</string>
+		<key>1414</key>
+		<string>Reset planogram failed. Please try again later</string>
+		<key>1415</key>
+		<string>Reset planogram failed. Please try again later</string>
+		<key>1416</key>
+		<string>No results from DB</string>
+		<key>1412</key>
+		<string>No result from DB</string>
+		<key>1417</key>
+		<string>No result from DB</string>
+		<key>1418</key>
+		<string>Load planogram failed with error. Please try again later</string>
+		<key>1419</key>
+		<string>Error in deleting the planogram. Please try again later</string>
+		<key>1420</key>
+		<string>Error in deleting the planogram. Please try again later</string>
+		<key>1421</key>
+		<string>Error in deleting the planogram. Please try again later</string>
+		<key>1425</key>
+		<string>Submit is successful. Error in copying planogram.</string>
+		<key>1428</key>
+		<string>Entered Invalid COF#. Please enter valid COF#</string>
+		<key>1431</key>
+		<string>Submit is successful. Error in copying planogram.</string>
+		<key>1432</key>
+		<string>This Planogram cannot be submitted. Please ensure Base Rockstar + Rockstar Roasted + Horchata + Sport allocation is equal to or greater than the sum of Amp Energy, Starbucks Doubleshot, and Starbucks Refreshers, and then resubmit.</string>
+		<key>1300</key>
+		<string>Error in fetching data from DB</string>
+		<key>1301</key>
+		<string>Error in fetching data from DB</string>
+		<key>1302</key>
+		<string>No Allocation percent values from DB</string>
+		<key>1303</key>
+		<string>Error in fetching data from DB</string>
+		<key>1500</key>
+		<string>File downloading is failed. Please try again later.</string>
+		<key>1501</key>
+		<string>File downloading is failed. Please try again later.</string>
+		<key>1600</key>
+		<string>Email sent without attachment</string>
+		<key>1601</key>
+		<string>Email ID is not valid. Please enter a valid email ID</string>
+		<key>1700</key>
+		<string>No VisiCooler files for the user</string>
+		<key>1701</key>
+		<string>Error in fetching data from DB</string>
+		<key>1702</key>
+		<string>Error in downloading the PDF&apos;s</string>
+		<key>1800</key>
+		<string>Log Entry Failed. Please try to login again</string>
+		<key>1801</key>
+		<string>Log Entry Failed. Please try to login again</string>
+		<key>1802</key>
+		<string>Log Entry Failed. Please try to login again</string>
+		<key>1803</key>
+		<string>Log Entry Failed. Please try to login again</string>
+		<key>101</key>
+		<string>Success</string>
+		<key>103</key>
+		<string>There is no records for this customer</string>
+		<key>404</key>
+		<string>Invalid Request</string>
+		<key>104</key>
+		<string>No values are submitted</string>
+		<key>102</key>
+		<string>Failure</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 4.3">
+    <entity name="Configuration" representedClassName="Configuration" syncable="YES">
+        <attribute name="actionedAlertCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geoLevelID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geoLevelTypeCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gpID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isInnovation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isMissingSKUs" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPurePlay" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSKUVoids" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastServiceCall" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="srbNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unActionedAlertCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="innovation" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Innovation" inverseName="configuration" inverseEntity="Innovation" syncable="YES"/>
+        <relationship name="missingSKU" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MissingSKUinPOG" inverseName="configuration" inverseEntity="MissingSKUinPOG" syncable="YES"/>
+        <relationship name="purePlay" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Pureplay" inverseName="configuration" inverseEntity="Pureplay" syncable="YES"/>
+        <relationship name="skuVoid" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SKUVoids" inverseName="configuration" inverseEntity="SKUVoids" syncable="YES"/>
+    </entity>
+    <entity name="Innovation" representedClassName="Innovation" syncable="YES">
+        <attribute name="alertID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="alertType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="altUPCCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gpId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="innovationActionedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="innovationAlertAction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="innovationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNoActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isYesActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mfoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respondedFlag" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="upcCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Configuration" inverseName="innovation" inverseEntity="Configuration" syncable="YES"/>
+    </entity>
+    <entity name="MissingSKUinPOG" representedClassName="MissingSKUinPOG" syncable="YES">
+        <attribute name="alertID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="alertType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="altUPCCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gpId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNoActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isYesActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mfoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="missingSKUName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pogActionedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pogAlertAction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respondedFlag" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="upcCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Configuration" inverseName="missingSKU" inverseEntity="Configuration" syncable="YES"/>
+    </entity>
+    <entity name="Pureplay" representedClassName="Pureplay" syncable="YES">
+        <attribute name="alertCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="alertID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertType" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="defID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gpId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headerID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNoActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isYesActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mfoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ppAction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ppActionedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pureplayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respondedFlag" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Configuration" inverseName="purePlay" inverseEntity="Configuration" syncable="YES"/>
+    </entity>
+    <entity name="SKUVoids" representedClassName="SKUVoids" syncable="YES">
+        <attribute name="alertCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="alertID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="altUPCCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gpId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="invenID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNoActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isYesActionEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mfoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respondedFlag" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="skuActionedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skuAlertAction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skuName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skuRank" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skuRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skuVelocity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="upcCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="configuration" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Configuration" inverseName="skuVoid" inverseEntity="Configuration" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Configuration" positionX="-54" positionY="-3753" width="128" height="315"/>
+        <element name="Innovation" positionX="331" positionY="-3834" width="128" height="298"/>
+        <element name="MissingSKUinPOG" positionX="414" positionY="-3246" width="128" height="268"/>
+        <element name="Pureplay" positionX="414" positionY="-3555" width="128" height="298"/>
+        <element name="SKUVoids" positionX="421" positionY="-2988" width="128" height="328"/>
+    </elements>
+</model>
